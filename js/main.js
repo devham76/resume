@@ -17,6 +17,8 @@
   });
 
 
+
+
 	var fullHeight = function() {
 
 		$('.js-fullheight').css('height', $(window).height());
@@ -269,8 +271,29 @@
     fixedContentPos: false
   });
 
-
-
+  // 이혜미 추가
+ $('.tlt').textillate({
+			loop: true,
+			initialDelay: 0,
+			minDisplayTime: 700,
+              // out animation settings.
+            in: {
+                effect: 'fadeIn',
+                delayScale: 0.3,
+                delay: 10,
+                sync: true,
+                shuffle: false,
+                reverse: false
+            },
+            out: {
+                effect: 'fadeOut',
+                delayScale: 0.3,
+                delay: 10,
+                sync: true,
+                shuffle: false,
+                reverse: false
+            }
+    });
 
 
 })(jQuery);
