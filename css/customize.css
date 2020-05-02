@@ -45,3 +45,9 @@
 .tag-list .font-bold {
     font-weight: bold;
 }
+.tag-list .font-red {
+    color: red;
+}
+.descriptions {
+    color:white;
+}
